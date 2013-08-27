@@ -1,15 +1,11 @@
 {
-  "name": "thinkstack-www",
-  "version": "0.1.0",
-  "author": "Laurie Voss <github@seldo.com>",
-  "description": "Automated own-cloud deployment for Node apps",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/seldo/thinkstack.git"
+  "name": "thinkstack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
   },
-  "dependencies" : {
-    "express": "*"
-  },
-  "devDependencies": {},
-  "bundledDependencies": []
+  "dependencies": {
+    "express": "3.2.6"
+  }
 }
